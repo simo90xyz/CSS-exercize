@@ -1,0 +1,55 @@
+           :root { 
+             --bg-color-body: black;
+             --width-150-px:150px;
+             --height-150-px:150px;
+             --bg-color-ball:#ff0000;
+             --border-radius:50%;
+             --text-align-center:center;
+             --padding-ball-20-px:20px;
+             --text-transform-capitalize:capitalize;
+             --font-size-2-rem:2rem;
+             --text-decoration-none:none;
+             --border-solid-2-px-grey:solid 2px grey;
+            }
+
+
+
+
+
+            body {
+              background-color: var(--bg-color-body)
+
+            }
+            
+            .ball {
+              width: var(--width-150-px);
+              height: var(--height-150-px);
+              border-radius: var(--border-radius);
+              background-color: var(--bg-color-ball);
+              text-align: var(--text-align-center);
+              padding: var(--padding-ball-20-px);
+              text-transform: var(--text-transform-capitalize);
+              font-size: var(--font-size-2-rem);
+              border: var(--border-solid-2-px-grey);
+            
+            }
+            
+            a {
+              text-decoration: var(--text-decoration-none);
+            }
+
+            .ball:hover {
+              background-color: white;
+              box-shadow: 0 0 0 6px #24ecff33,
+              0 0 0 11px #24ecff22,
+              0 0 0 16px #24ecff11,
+              0 0 22px #24ecff,
+              0 0 55px #24ecff ;
+              
+            }
+
+    
+              
+          
+
+   
