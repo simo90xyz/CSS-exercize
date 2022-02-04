@@ -1,0 +1,48 @@
+
+
+#check {
+	display: none;
+}
+
+
+label {
+    font-size: 5rem;
+	margin: 5vw;
+	cursor: pointer;
+	color: rgb(6, 4, 78);
+    }
+
+ table {
+	visibility: hidden;
+	
+	
+}
+
+#check:checked ~ table {
+	visibility: visible ;
+	
+
+}
+
+
+
+.expandable {
+	visibility: visible;
+	background-color: #88ff88;
+
+}
+.no-expandable {
+	
+	background-color: #fb0606c4;
+
+}
+
+ .containar {
+	 margin-top: 30vh;
+	 margin-left: 30vw;
+	 font-size: 2rem;
+ }
+
+
+
+
