@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <link rel="stylesheet" href="style.css"> 
-
-   <!-- 
+    <link rel="stylesheet" href="style.css"> 
     <title>flexbox exercize CSS</title>
-    <style>
+ 
+<!--  
+     <style>
       *{margin: 0%;
         padding: 0%;
-        box-sizing: border-box;
+        box-sizing: border-box;  
        }
 
-
+   
+    
     body {
         background-color: black;
+  
     }
+
 
     h1  {
         color: gold;
@@ -26,54 +29,63 @@
     }
 
 
-   
+   section {
+       display: flex;
+       justify-content: center;
+   }
 
     .logo {
         color: firebrick;
-        margin-left: 43vw;
+      
         font-weight: bold;
         font-size: 1rem;
         margin-top: 5vh;
     }
+     
 
+    
     #sidebar {
-        margin-top: 10vh;
-        width: 800px;
-        height: 100px;
-        display: flex;
+        margin-top: 15vh;
+        justify-content: center;
+        max-width: 100%;
+        position: fixed;
+
         border-radius: 50%;
         background-color: rgb(8, 216, 8);
-        justify-content: center;
-        margin-left: 25vw;
         box-shadow: 0 0 0 5px #24ecff33,
         0 0 0 10px #24ecff22,
         0 0 0 15px #24ecff11,
         0 0 20px #24ecff,
-        0 0 50px #24ecff
+        0 0 50px #24ecff;
+       
     }
- 
+
 
     ul  {
         display: flex;
-        margin-left: 100px;
         list-style-type: none;
-        margin-right: 9vw;
-        
     }
+    li {
+       margin: 30px;
+    
+    }   
+        
   li a {
       display: flex;
-
+  
+      margin-top: 2vw;
+     
     }
 
 
   a {
-      margin-left: 90px;
       text-decoration: none;
-      padding: 40px;
+   
       color: #0e0101 ;    
     }
 
 
+}
   a:hover {
       color: transparent;
       transition: 0.5s;
@@ -83,7 +95,7 @@
   footer {
       display: flex;
       justify-content: center;
-      margin-top: 25vh;
+      margin-top: 45vh;
     }
 
 
@@ -113,7 +125,6 @@ h3 {
    
    }
     </style>
-
 -->  
 
 
@@ -137,7 +148,8 @@ h3 {
                     </ul>
                 </nav>
               <br>
-            </section>
+        </section>
+        <br>
           <footer>
                 <figure>
                     <img src="" alt="avatar">
